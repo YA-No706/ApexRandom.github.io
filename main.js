@@ -15,30 +15,30 @@ HG :　ピストル
 */
 
 var WeaponList_SP = [
-    new Weapon('ヘムロック',"SP"),
+    new Weapon('プラウラー',"SP"),
     new Weapon('Lスター',"SP"),
     new Weapon('クレーバー',"SP"),
     new Weapon('ボセック',"SP"),
 ]
 
 var WeaponList_AR = [
-    new Weapon('R301',"AR"),
-    new Weapon('フラットライン',"AR"),
-    new Weapon('ハボック',"AR"),
-    new Weapon('ネメシス',"AR")
+    new Weapon('R301',"Light"),
+    new Weapon('フラットライン',"Heavy"),
+    new Weapon('ヘムロック',"Heavy"),
+    new Weapon('ハボック',"Energy"),
+    new Weapon('ネメシス',"Energy")
 
 ]
 var WeaponList_SMG = [
-    new Weapon('プラウラー',"SMG"),
-    new Weapon('R99',"SMG"),
-    new Weapon('オルタネーター',"SMG"),
-    new Weapon('ボルト',"SMG"),
-    new Weapon('C.A.R. SMG',"SMG")
+    new Weapon('R99',"Light"),
+    new Weapon('オルタネーター',"Light"),
+    new Weapon('ボルト',"Energy"),
+    new Weapon('C.A.R. SMG',"Heavy")
 ]
 var WeaponList_LMG = [
-    new Weapon('スピットファイア',"LMG"),
-    new Weapon('ディボーション',"LMG"),
-    new Weapon('ランページLMG',"LMG")
+    new Weapon('スピットファイア',"Light"),
+    new Weapon('ディボーション',"Energy"),
+    new Weapon('ランページLMG',"Heavy")
 ]
 var WeaponList_SR = [
     new Weapon('ロングボウ',"SR"),
@@ -52,15 +52,15 @@ var WeaponList_SG = [
     new Weapon('EVA8',"SG")
 ]
 var WeaponList_MR = [
-    new Weapon('G7スカウト',"MR"),
-    new Weapon('トリプルテイク',"MR"),
-    new Weapon('30-30リピーター',"MR")
+    new Weapon('G7スカウト',"Light"),
+    new Weapon('トリプルテイク',"Energy"),
+    new Weapon('30-30リピーター',"Heavy")
 
 ]
 var WeaponList_HG = [
-    new Weapon('RE45',"HG"),
-    new Weapon('P2020',"HG"),
-    new Weapon('ウィングマン',"HG")
+    new Weapon('RE45',"Light"),
+    new Weapon('P2020',"Light"),
+    new Weapon('ウィングマン',"SR")
 ]
 
 var CharacterList = [
