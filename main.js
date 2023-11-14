@@ -16,7 +16,7 @@ HG :　ピストル
 
 var WeaponList_SP = [
     new Weapon('プラウラー',"SP"),
-    new Weapon('Lスター',"SP"),
+    new Weapon('ウィングマン',"SP"),
     new Weapon('クレーバー',"SP"),
     new Weapon('ボセック',"SP"),
 ]
@@ -38,6 +38,7 @@ var WeaponList_SMG = [
 var WeaponList_LMG = [
     new Weapon('スピットファイア',"Light"),
     new Weapon('ディボーション',"Energy"),
+    new Weapon('Lスター',"Energy"),
     new Weapon('ランページLMG',"Heavy")
 ]
 var WeaponList_SR = [
@@ -60,7 +61,6 @@ var WeaponList_MR = [
 var WeaponList_HG = [
     new Weapon('RE45',"Light"),
     new Weapon('P2020',"Light"),
-    new Weapon('ウィングマン',"SR")
 ]
 
 var CharacterList = [
@@ -87,7 +87,8 @@ var CharacterList = [
     'ニューキャッスル',
     'ヴァンテージ',
     'カタリスト',
-    'バリスティック'
+    'バリスティック',
+    'コンジット'
 ]
 
 function Execute(){
