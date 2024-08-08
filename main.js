@@ -15,7 +15,7 @@ HG :　ピストル
 */
 
 var WeaponList_SP = [
-    new Weapon('EVA8',"SP"),
+    new Weapon('R99',"SP"),
     new Weapon('ディボーション',"SP"),
     new Weapon('クレーバー',"SP"),
     new Weapon('ボセック',"SP"),
@@ -30,7 +30,6 @@ var WeaponList_AR = [
 
 ]
 var WeaponList_SMG = [
-    new Weapon('R99',"Light"),
     new Weapon('オルタネーター',"Light"),
     new Weapon('ボルト',"Energy"),
     new Weapon('プラウラーバーストPDW',"Heavy"),
@@ -49,6 +48,7 @@ var WeaponList_SR = [
 var WeaponList_SG = [
     new Weapon('モザンビーク',"SG"),
     new Weapon('マスティフ',"SG"),
+    new Weapon('EVA8',"SG"),
     new Weapon('ピースキーパー',"SG")
 ]
 var WeaponList_MR = [
