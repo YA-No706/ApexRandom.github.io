@@ -16,7 +16,7 @@ HG :　ピストル
 
 var WeaponList_SP = [
     new Weapon('R99',"SP"),
-    new Weapon('ディボーション',"SP"),
+    new Weapon('ハボック',"SP"),
     new Weapon('クレーバー',"SP"),
     new Weapon('ボセック',"SP"),
 ]
@@ -25,7 +25,6 @@ var WeaponList_AR = [
     new Weapon('R301',"Light"),
     new Weapon('フラットライン',"Heavy"),
     new Weapon('ヘムロック',"Heavy"),
-    new Weapon('ハボック',"Energy"),
     new Weapon('ネメシス',"Energy")
 
 ]
@@ -38,7 +37,8 @@ var WeaponList_SMG = [
 var WeaponList_LMG = [
     new Weapon('スピットファイア',"Light"),
     new Weapon('Lスター',"Energy"),
-    new Weapon('ランページLMG',"Heavy")
+    new Weapon('ランページLMG',"Heavy"),
+    new Weapon('ディヴォーション',"Energy")
 ]
 var WeaponList_SR = [
     new Weapon('ロングボウ',"SR"),
