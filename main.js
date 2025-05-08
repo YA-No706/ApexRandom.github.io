@@ -15,22 +15,23 @@ HG :　ピストル
 */
 
 var WeaponList_SP = [
-    new Weapon('R99',"SP"),
-    new Weapon('ハボック',"SP"),
+    new Weapon('トリプルテイク',"SP"),
     new Weapon('クレーバー',"SP"),
-    new Weapon('ボセック',"SP"),
+    new Weapon('ピースキーパー',"SP")
 ]
 
 var WeaponList_AR = [
     new Weapon('R301',"Light"),
     new Weapon('フラットライン',"Heavy"),
     new Weapon('ヘムロック',"Heavy"),
+    new Weapon('ハボック',"Energy"),
     new Weapon('ネメシス',"Energy")
 
 ]
 var WeaponList_SMG = [
     new Weapon('オルタネーター',"Light"),
     new Weapon('ボルト',"Energy"),
+    new Weapon('R99',"Light"),
     new Weapon('プラウラーバーストPDW',"Heavy"),
     new Weapon('C.A.R. SMG',"Heavy")
 ]
@@ -48,14 +49,12 @@ var WeaponList_SR = [
 var WeaponList_SG = [
     new Weapon('モザンビーク',"SG"),
     new Weapon('マスティフ',"SG"),
-    new Weapon('EVA8',"SG"),
-    new Weapon('ピースキーパー',"SG")
+    new Weapon('EVA8',"SG")
 ]
 var WeaponList_MR = [
     new Weapon('G7スカウト',"Light"),
-    new Weapon('トリプルテイク',"Energy"),
-    new Weapon('30-30リピーター',"Heavy")
-
+    new Weapon('30-30リピーター',"Heavy"),
+    new Weapon('ボセック',"Arrow"),
 ]
 var WeaponList_HG = [
     new Weapon('RE45',"Light"),
@@ -89,7 +88,8 @@ var CharacterList = [
     'カタリスト',
     'バリスティック',
     'コンジット',
-    'オルター'
+    'オルター',
+    'スパロー'
 ]
 
 function Execute(){
@@ -138,7 +138,8 @@ function Execute(){
     if (checkbox.checked)
     {
         WeaponList = WeaponList.concat(WeaponList_HG);
-    }
+    }    
+
     console.log(WeaponList);
     //-----------------
 
