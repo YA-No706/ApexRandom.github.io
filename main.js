@@ -15,9 +15,9 @@ HG :　ピストル
 */
 
 var WeaponList_SP = [
-    new Weapon('トリプルテイク',"SP"),
     new Weapon('クレーバー',"SP"),
-    new Weapon('ピースキーパー',"SP")
+    new Weapon('P2020',"SP"),
+    new Weapon('C.A.R. SMG',"SP")
 ]
 
 var WeaponList_AR = [
@@ -26,14 +26,12 @@ var WeaponList_AR = [
     new Weapon('ヘムロック',"Heavy"),
     new Weapon('ハボック',"Energy"),
     new Weapon('ネメシス',"Energy")
-
 ]
 var WeaponList_SMG = [
     new Weapon('オルタネーター',"Light"),
     new Weapon('ボルト',"Energy"),
     new Weapon('R99',"Light"),
-    new Weapon('プラウラーバーストPDW',"Heavy"),
-    new Weapon('C.A.R. SMG',"Heavy")
+    new Weapon('プラウラーバーストPDW',"Heavy")   
 ]
 var WeaponList_LMG = [
     new Weapon('スピットファイア',"Light"),
@@ -49,16 +47,17 @@ var WeaponList_SR = [
 var WeaponList_SG = [
     new Weapon('モザンビーク',"SG"),
     new Weapon('マスティフ',"SG"),
+     new Weapon('ピースキーパー',"SG"),
     new Weapon('EVA8',"SG")
 ]
 var WeaponList_MR = [
     new Weapon('G7スカウト',"Light"),
     new Weapon('30-30リピーター',"Heavy"),
     new Weapon('ボセック',"Arrow"),
+     new Weapon('トリプルテイク',"Energy")
 ]
 var WeaponList_HG = [
-    new Weapon('RE45',"Light"),
-    new Weapon('P2020',"Light"),
+    new Weapon('RE45',"Energy"),    
     new Weapon('ウィングマン',"SR")
 ]
 
