@@ -16,8 +16,8 @@ HG :　ピストル
 
 var WeaponList_SP = [
     new Weapon('クレーバー',"SP"),
-    new Weapon('P2020',"SP"),
-    new Weapon('C.A.R. SMG',"SP")
+    new Weapon('Lスター',"SP"),
+    new Weapon('30-30リピーター',"SP")
 ]
 
 var WeaponList_AR = [
@@ -31,11 +31,11 @@ var WeaponList_SMG = [
     new Weapon('オルタネーター',"Light"),
     new Weapon('ボルト',"Energy"),
     new Weapon('R99',"Light"),
+    new Weapon('C.A.R. SMG',"Heavy"),
     new Weapon('プラウラーバーストPDW',"Heavy")   
 ]
 var WeaponList_LMG = [
     new Weapon('スピットファイア',"Light"),
-    new Weapon('Lスター',"Energy"),
     new Weapon('ランページLMG',"Heavy"),
     new Weapon('ディヴォーション',"Energy")
 ]
@@ -52,12 +52,12 @@ var WeaponList_SG = [
 ]
 var WeaponList_MR = [
     new Weapon('G7スカウト',"Light"),
-    new Weapon('30-30リピーター',"Heavy"),
     new Weapon('ボセック',"Arrow"),
      new Weapon('トリプルテイク',"Energy")
 ]
 var WeaponList_HG = [
-    new Weapon('RE45',"Energy"),    
+    new Weapon('RE45',"Energy"),  
+    new Weapon('P2020',"Light"),
     new Weapon('ウィングマン',"SR")
 ]
 
@@ -88,7 +88,8 @@ var CharacterList = [
     'バリスティック',
     'コンジット',
     'オルター',
-    'スパロー'
+    'スパロー',
+    'アクセル'
 ]
 
 function Execute(){
